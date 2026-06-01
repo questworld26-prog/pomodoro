@@ -251,7 +251,8 @@ class PomodoroApp(tk.Tk):
 
     # --- Data Persistence ---
     def load_data(self):
-        self.data_file = "pomodoro_data.json"
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        self.data_file = os.path.join(script_dir, "pomodoro_data.json")
         default = {
             "total_minutes": 0.0,
             "daily_minutes": {},
