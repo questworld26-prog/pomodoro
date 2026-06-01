@@ -1,0 +1,16 @@
+{
+    "total_sessions": 2,
+    "total_minutes": 7.9,
+    "sessions_today": 2,
+    "last_reset_date": "2026-06-01",
+    "activities": {
+        "General Focus": 9.283333333333333,
+        "Task": 1.3833333333333333
+    },
+    "daily_minutes": {
+        "2026-06-01": 5.899999999999999
+    },
+    "hourly_minutes": {
+        "16": 5.899999999999999
+    }
+}
